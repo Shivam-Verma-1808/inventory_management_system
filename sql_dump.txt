@@ -1,0 +1,2 @@
+sudo /opt/lampp/bin/mysqldump -u root -p --routines --triggers  GULLAK > GULLAK_BACKUP_final_with_data.sql
+Enter password:

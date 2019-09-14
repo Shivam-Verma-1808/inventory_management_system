@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<style>
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+<body>
+
+<h2>Edit your Profile :</h2>
+
+<form action="Edit_profile_Coordi.php" method="post">
+
+  <div class="container">
+
+    <label><b>Name:</b></label>
+    <input type="text" placeholder="New Name:" name="new_name" required>
+
+    <label><b>User_Name:</b></label>
+    <input type="text" placeholder="New User_Name:" name="new_User_name" required>
+
+    <label><b>Password:</b></label>
+    <input type="password" placeholder="Enter New Password:" name="new_password" required>
+
+    <label><b>Email:</b></label>
+    <input type="email" placeholder="Enter New Email:" name="new_email_id" required>
+
+    <button type="submit">DONE</button>
+
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <a href="welcome_new2_Coordi.php">
+    <button type="button" class="cancelbtn">Cancel</button>
+    </a>
+  </div>
+</form>
+
+</body>
+</html>
