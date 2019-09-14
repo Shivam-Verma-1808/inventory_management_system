@@ -6,3 +6,5 @@ A ​ web dev​ project ,aimed at creating and maintaining an online system for
 Home_Page : index_new.html
 
 also included the SQL dump files (also with some basic data).
+
+We use to call this project as "Gullak : the inventory management system" .
